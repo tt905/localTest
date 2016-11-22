@@ -126,8 +126,8 @@ public class LocalHook implements IXposedHookLoadPackage {
                                     Object[] args = new Object[1];
                                     Location l = new Location(LocationManager.GPS_PROVIDER);
                                     //台北经纬度:121.53407,25.077796
-                                    double la=121.53407;
-                                    double lo=25.077796;
+                                    double la=113.334773;
+                                    double lo=22.992792;
                                     l.setLatitude(la);
                                     l.setLongitude(lo);
                                     args[0] = l;
